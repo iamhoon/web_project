@@ -1,0 +1,94 @@
+
+.team_member{
+    width: 100%;
+    height: 1600px;
+    margin-top: 5px;
+    
+}
+.dongu{
+    
+    width: 49%;
+    height: 400px;
+    background-color: rgb(247, 245, 245);
+    float: left;
+    border-radius: 12px;
+}
+.sungu{
+    
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin-left: 5px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 12px;
+}
+.dongu_img{
+    border-radius: 150px;
+    width: 30%;
+    height: 55%;
+    margin-top: 50px;
+    margin-left: 90px;
+    display: inline-block;
+}
+.dongu_img img{
+    border-radius: 150px;
+}
+.sungu_img img{
+    border-radius: 150px;
+}
+.sungu_img{
+    border-radius: 150px;
+    width: 30%;
+    height: 55%;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+.dongu_talk{
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 46%;
+    height: 80%;
+    float: right;
+    background-color:rgb(247, 245, 245);
+    border-radius: 12px;
+}
+.sungu_talk{
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 46%;
+    height: 60%;
+    float: right;
+    background-color:rgb(247, 245, 245);
+    border-radius: 12px;
+}
+.talk_title{
+    border-bottom: 1px solid rgb(182, 182, 182);
+    width: 100%;
+    height: 55px;
+    margin-bottom: 5px;
+}
+#team_name{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+#team_position{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.talk_body{
+    width: 100%;
+    height: 270px;
+}
+
+.talk_body p{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    
+
+}

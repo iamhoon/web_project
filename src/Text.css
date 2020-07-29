@@ -1,0 +1,46 @@
+.wesix_intro{
+  /* border: 1px solid black; */
+  background-color: rgb(252, 252, 252);
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  
+}
+.intro_right{
+  float: left;
+  width: 49%;
+  height: 55%;
+  margin-top: 3%;
+}
+
+.intro_left{
+  float: left;
+  width: 30%;
+  height: 80%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.wesix_intro_img{
+  width: 80%;
+  height: 80%;
+}
+
+.wesix_intro_title{
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 3%;
+}
+
+.wesix_intro_content1{
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+}
+
+.wesix_intro_content2{
+  font-size: 15px;
+  width: 97%;
+  height: 40%;
+  padding-left: 3%;
+}

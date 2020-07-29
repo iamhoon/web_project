@@ -1,0 +1,31 @@
+.route2{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+.route_title{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.route_title hr{
+    width: 90%;
+}
+.route_title p{
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.map{
+    
+      margin-left: 250px;
+      width: 1000px;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#kakaoa{
+    font-size: 30px;
+}

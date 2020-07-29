@@ -1,0 +1,48 @@
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.mainpicture{
+   
+    height: 500px;
+    width: 100%;
+    background-image: url(./hwije.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.mainpicture_main{
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+.mainpicture_title{
+
+    font-size: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.mainpicture_body{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top:20px;
+}
+
+.mainpicture_tail{
+
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+}

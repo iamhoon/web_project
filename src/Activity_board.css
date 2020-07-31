@@ -11,6 +11,12 @@
     margin-left: 44%;
    
 }
+#act_name{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 60px;
+    color: rgb(92, 92, 92);
+}
 .page1_box{
     float:left;
     width: 30%;

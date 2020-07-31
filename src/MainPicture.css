@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Raleway:wght@460&display=swap');
 @keyframes slidein {
     from {
       margin-left: 100%;
@@ -18,6 +20,9 @@
     background-size: cover;
    
 }
+.mainpicture{
+    font-family: 'Raleway', sans-serif;
+}
 .mainpicture_main{
     animation-duration: 1.5s;
     animation-name: slidein;
@@ -32,10 +37,11 @@
 }
 
 .mainpicture_body{
-    font-size: 30px;
     display: inline-block;
     margin-left: 200px;
     margin-top:20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 45px;
 }
 
 .mainpicture_tail{
@@ -45,4 +51,5 @@
     margin-top: 50px;
     font-size: 50px;
     color: black;
+   
 }

@@ -12,7 +12,7 @@ import Activity_board from './Activity_board';
 function App() {
   return (
     <div className="App">
-      <Appbar/>
+      <Appbar/> 
       <div>
       <MainPicture/>
       </div>

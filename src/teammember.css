@@ -71,15 +71,15 @@
 }
 .dongu_talk{
     width: 46%;
-    height: 60%;
     background-color:rgb(247, 245, 245);
     border-radius: 12px;
+    margin-top: 5%;
 }
 .sungu_talk{
     width: 46%;
-    height: 60%;
     background-color:rgb(247, 245, 245);
     border-radius: 12px;
+    margin-top: 5%;
 }
 .talk_title{
     display: flex;

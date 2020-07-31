@@ -1,38 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Raleway:wght@460&display=swap');
-.team_member{
-    width: 100%;
-    height: 1600px;
-    margin-top: 5px;
-    
+
+.member_title{
+    text-align: center;
 }
+.member_title{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.real_img_style{
+    width: 100%;
+    height: 100%;
+}
+
 #quoto{
     font-size: 30px;
     font-family: 'Nanum Pen Script', cursive;
 }
+
+.team_line1{
+    display: flex;
+    margin-bottom: 5%;
+}
+.team_line2{
+    display: flex;
+    margin-bottom: 5%;
+}
+.team_line3{
+    display: flex;
+    margin-bottom: 5%;
+}
+.team_line4{
+    display: flex;
+    margin-bottom: 5%;
+}
+
 .dongu{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 49%;
-    height: 400px;
+    /* min-width: 450px; */
     background-color: rgb(247, 245, 245);
-    float: left;
     border-radius: 12px;
 }
 .sungu{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    height: 400px;
-    float: left;
-    margin-left: 5px;
+    /* min-width: 450px; */
     background-color: rgb(247, 245, 245);
     border-radius: 12px;
 }
 .dongu_img{
     border-radius: 150px;
     width: 30%;
-    height: 55%;
-    margin-top: 50px;
-    margin-left: 90px;
-    display: inline-block;
+    padding-right: 5%; 
 }
 .dongu_img img{
     border-radius: 150px;
@@ -43,56 +67,103 @@
 .sungu_img{
     border-radius: 150px;
     width: 30%;
-    height: 55%;
-    margin-top: 50px;
-    margin-left: 100px;
-    display: inline-block;
-    
+    padding-right: 5%;
 }
 .dongu_talk{
-    margin-top: 40px;
-    margin-right: 10px;
     width: 46%;
-    height: 80%;
-    float: right;
+    height: 60%;
     background-color:rgb(247, 245, 245);
     border-radius: 12px;
 }
 .sungu_talk{
-    margin-top: 40px;
-    margin-right: 10px;
     width: 46%;
     height: 60%;
-    float: right;
     background-color:rgb(247, 245, 245);
     border-radius: 12px;
 }
 .talk_title{
+    display: flex;
     border-bottom: 1px solid rgb(182, 182, 182);
     width: 100%;
-    height: 55px;
-    margin-bottom: 5px;
 }
 #team_name{
-    display: inline-block;
     font-size: 30px;
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 #team_position{
-    display: inline-block;
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 3%;
 }
 .talk_body{
     width: 100%;
-    height: 270px;
 }
 
-.talk_body p{
-    margin-top: 2px;
-    margin-bottom: 15px;
-    margin-left: 30px;
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    .member_title{
+        font-size: 40px;
+    }
+
+    #quoto{
+        font-size: 25px;
+    }
+
+    #team_name{
+        font-size: 20px;
+    }
+
+    #team_position{
+        font-size: 15px;
+    }
+
+    .talk_body p{
+        font-size: 12px;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    .team_line1{
+        flex-direction: column;
+    }
+    .team_line2{
+        flex-direction: column;
+    }
+    .team_line3{
+        flex-direction: column;
+    }
+    .team_line4{
+        flex-direction: column;
+    }
+
+    .member_title{
+        margin-bottom: 5%;
+        font-size: 40px;
+    }
+
+    #quoto{
+        font-size: 20px;
+    }
     
+    .dongu{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .sungu{
+        width: 100%;
+    }
 
+    #team_name{
+        font-size: 18px;
+    }
+
+    #team_position{
+        font-size: 12px;
+    }
+
+    .talk_body p{
+        font-size: 12px;
+    }
 }
+ 

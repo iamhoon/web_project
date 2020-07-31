@@ -19,10 +19,8 @@ function App() {
       <div className="mid">
         <WESIX_INTRO/>
         <Activity_board/>
-       
       </div>
       <div>
-        <div className="member"><p>WeSix 크루원</p></div>
         <Team/>
         <Route/>
       </div>

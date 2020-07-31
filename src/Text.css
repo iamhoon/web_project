@@ -1,46 +1,133 @@
-.wesix_intro{
-  /* border: 1px solid black; */
-  background-color: rgb(252, 252, 252);
-  width: 100%;
-  height: 400px;
-  margin-top: 10px;
-  
-}
+
 .intro_right{
   float: left;
   width: 49%;
   height: 55%;
-  margin-top: 3%;
+  margin-top: 3%; 
 }
 
 .intro_left{
   float: left;
   width: 30%;
   height: 80%;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 3%;
 }
 
-.wesix_intro_img{
-  width: 80%;
-  height: 80%;
+.wesix_intro{
+  display:flex;
 }
 
-.wesix_intro_title{
-  font-weight: bold;
-  font-size: 50px;
-  margin-left: 3%;
+/* PC (해상도 1024px)*/
+@media all and (min-width:1024px) { 
+  .wesix_intro_img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .wesix_intro_title{
+    font-weight: bold;
+    font-size: 50px;
+    /* margin-left: 3%; */
+  }
+  
+  .wesix_intro_content1{
+    font-weight: 600;
+    font-size: 20px;
+    /* width: 100%;
+    margin-left: 5%; */
+  }
+  
+  .wesix_intro_content2{
+    font-size: 15px;
+    /* width: 97%;
+    height: 40%;
+    padding-left:5%; */
+  }
+
+  .wesix_intro{
+    /* border: 1px solid black; */
+    background-color: rgb(252, 252, 252);
+    /* width: 100%;
+    margin-top: 10px; */
+    height: 400px;
+    
+    
+  }
 }
 
-.wesix_intro_content1{
-  font-weight: 600;
-  font-size: 20px;
-  width: 100%;
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) { 
+  .wesix_intro_img{
+    width: 80%;
+    height: 80%;
+  }
+  .wesix_intro_title{
+    font-weight: bold;
+    font-size: 45px;
+    /* margin-left: 3%; */
+  }
+  
+  .wesix_intro_content1{
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 5%;
+  }
+  
+  .wesix_intro_content2{
+    font-size: 14px;
+    width: 97%;
+    height: 40%;
+    padding-left:5%;
+  }
+  .wesix_intro{
+    /* border: 1px solid black; */
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    
+  }
 }
 
-.wesix_intro_content2{
-  font-size: 15px;
-  width: 97%;
-  height: 40%;
-  padding-left: 3%;
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+  .wesix_intro_img{
+    display: block;
+    width: 80%;
+    height: 80%;
+    min-width: 110px;
+
+  }
+  .wesix_intro_title{
+    font-weight: bold;
+    font-size: 42px;
+    /* margin-left: 3%; */
+  }
+  
+  .wesix_intro_content1{
+    font-weight: 600;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 5%;
+    min-width: 190px;
+  }
+  
+  .wesix_intro_content2{
+    font-size: 12px;
+    width: 97%;
+    height: 40%;
+    padding-left:5%;
+  }
+  .wesix_intro{
+    /* border: 1px solid black; */
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    min-width: 375px;
+    
+  }
+
 }

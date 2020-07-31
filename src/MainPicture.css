@@ -11,14 +11,17 @@
       width: 100%;
     }
 }
+
 .mainpicture{
-   
     height: 500px;
     width: 100%;
-    background-image: url(./hwije.jpg);
+    background-image: url(./yellow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    
 }
 .mainpicture{
     font-family: 'Raleway', sans-serif;
@@ -27,29 +30,122 @@
     animation-duration: 1.5s;
     animation-name: slidein;
 }
-.mainpicture_title{
 
-    font-size: 100px;
-    display: inline-block;
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+
+/* PC (해상도 1024px)*/
+@media all and (min-width:1024px) {
+        .mainpicture_title{
+        font-size: 68px;
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 10%;
+     
+        margin-bottom: 0px; 
+    }
+
+    .mainpicture_body{
+        /* display: inline-block; */
+        min-width: 270px;
+        margin-left: 10%;
+        margin-top:20px;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 45px;
+        
+    }
+
+    .mainpicture_tail{
+        
+        width: 1000px;
+        margin-left: 10%;
+        margin-top: 50px;
+        font-size: 50px;
+        /* color: black; */
+    }
+    .mainpicture{
+        height: 500px;
+        width: 100%;
+
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(0, 0, 0);        
+    }
 }
 
-.mainpicture_body{
-    display: inline-block;
-    margin-left: 200px;
-    margin-top:20px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 45px;
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    .mainpicture_title{
+        font-size: 56px;
+        font-weight: 600;
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 100px;
+        margin-bottom: 0px;
+
+    }
+
+    .mainpicture_body{
+        /* display: inline-block; */
+        min-width: 270px;
+        margin-left: 10%;
+        margin-top:20px;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 40px;
+    }
+    .mainpicture_tail{
+
+        width: 1000px;
+        margin-left: 10%;
+        margin-top: 50px;
+        font-size: 40px;
+        /* color: black; */
+       
+    }
+    .mainpicture{
+        height: 450px;
+        width: 100%;
+        
+        /* background-position: 1px -450px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(0, 0, 0);
+    }
 }
 
-.mainpicture_tail{
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    .mainpicture_title{
+        font-size: 44px;
+        font-weight: 600;
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
 
-    width: 1000px;
-    margin-left: 200px;
-    margin-top: 50px;
-    font-size: 50px;
-    color: black;
-   
+    .mainpicture_body{
+        /* display: inline-block; */
+        min-width: 270px;
+        margin-left: 10%;
+        margin-top:20px;
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 30px;
+    }
+    .mainpicture_tail{
+        width: 1000px;
+        margin-left: 10%;
+        margin-top: 50px;
+        font-size: 25px;
+        /* color: black; */
+    }
+
+    .mainpicture{
+        height: 400px;
+        width: 100%;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(0, 0, 0);
+    }
 }
+ 

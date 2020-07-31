@@ -8,7 +8,7 @@ class MainPicture extends React.Component{
             <div className="mainpicture">
                 <div className="mainpicture_main">
                 <div >
-                   <p class="mainpicture_title">WeSix</p>
+                   <h2 class="mainpicture_title">WeSix</h2>
                 </div>
                 <div className="mainpicture_body">
                     저희는 창원대학교 컴퓨터공학과 <br/>

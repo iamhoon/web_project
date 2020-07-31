@@ -1,54 +1,183 @@
 .act_board{
+    position: relative;
     background-color: rgb(247, 245, 245);
     width: 100%;
-    height: 450px;
-    margin-bottom: 85px;
-
+    height: 700px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
 }
-.act_board p{
+.act_board h2{
     font-size: 45px;
     margin-bottom: 10px;
-    margin-left: 44%;
-   
+    text-align: center;
 }
+
 #act_name{
     display: inline-block;
     font-size: 15px;
-    margin-left: 60px;
+    margin-left: auto;
     color: rgb(92, 92, 92);
 }
+
+.page_group {
+    display: flex;
+}
 .page1_box{
-    float:left;
     width: 30%;
-    height: 80%;
+    min-width: 350px;
+    /* max-width: 351px; */
     margin-top: 2%;
     margin-left: 2%;
 }
 .page2_box{
-    float:left;
     width: 30%;
-    height: 80%;
+    min-width: 350px;
+    /* max-width: 351px; */
     margin-top: 2%;
     margin-left: 3%;
 }
 .page3_box{
-    float:right;
     width: 30%;
-    height: 80%;
+    min-width: 350px;
+    /* max-width: 351px; */
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 }
-
 .page1{
+    /* min-width: 350px; */
     width: 100%;
-    height: 100%;
+    height: auto;
+    
 }
 .page2{
+    /* min-width: 350px; */
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .page3{
+    /* min-width: 350px; */
     width: 100%;
-    height: 100%;
+    height: auto;
 }
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+    .act_board{
+        position: relative;
+        background-color: rgb(247, 245, 245);
+        width: 100%;
+        height: 900px;
+        margin-bottom: 85px;
+        
+    }
+
+    .act_board h2{
+        font-size: 45px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .page1_box{
+        /* float: left; */
+        vertical-align: middle;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .page2_box{
+        float:left;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .page3_box{
+        float:left;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .page1{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+        
+    }
+    .page2{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+    }
+    .page3{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    .act_board{
+        position: relative;
+        background-color: rgb(247, 245, 245);
+        width: 100%;
+        height: 1300px;
+        margin-bottom: 85px;
+    
+    }
+
+    .act_board h2{
+        font-size: 45px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .page1_box{
+        float:left;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .page2_box{
+        float:left;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .page3_box{
+        float:left;
+        width: 30%;
+        min-width: 350px;
+        /* max-width: 351px; */
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .page1{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+        
+    }
+    .page2{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+    }
+    .page3{
+        /* min-width: 350px; */
+        width: 100%;
+        height: auto;
+    }
+}
+

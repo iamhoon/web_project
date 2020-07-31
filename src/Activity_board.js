@@ -4,16 +4,17 @@ import Img2 from './img2.jpg'
 import Img3 from './img3.jpg'
 import './Activity_board.css';
 
-class Activity_board extends React.Component{
+class Activity_board extends React.Component {
 
-    
-    render(){
-        return(
-            <div className="act_board"> 
-                <h2>활동 소식</h2>
-                <div className="page_group">
+
+    render() {
+        return (
+            <div className="title">
+                <h2>/ 활동 소식 /</h2>
+                <div className="act_board">
+
                     <div className="page1_box">
-                        <img className="page1"src={Img1}></img>
+                        <img className="page1" src={Img1}></img>
                         <p id="act_name">창원대 LinC+사업단 창업캠프 (2020.07.22~24) </p>
                     </div>
                     <div className="page2_box">
@@ -26,7 +27,6 @@ class Activity_board extends React.Component{
                     </div>
                 </div>
             </div>
-
         )
     }
 }

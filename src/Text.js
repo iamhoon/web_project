@@ -21,8 +21,8 @@ class WESIX_INTRO extends React.Component{
                     </div>
                     <div className="wesix_intro_content2">
                         <p>● 도전 K-스타트업 학생 창업 유망팀 300 교육형 수료중</p>
-                        <p>● 창원대학교 Linc사업단 주관 창업 캠프 수료</p>
-                        <p>● 인제대학교 Linc사업단 주최 창업 경진대회 참가</p>
+                        <p>● 창원대학교 Linc+사업단 주관 창업 캠프 수료</p>
+                        <p>● 인제대학교 Linc+사업단 주최 창업 경진대회 참가</p>
                     </div>
                 </div>
             </div>

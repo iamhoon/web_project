@@ -69,7 +69,7 @@ class Appbar extends React.Component {
                   
                     <ul className="menubar" style={{display: this.state.tf}}>
                         <li><a onClick={this.companysearch} href="#none">회사소개</a></li>
-                        <li><a onClick={this.imgsearch} href="#none">활동게시판</a></li>
+                        <li> <a onClick={this.imgsearch} href="#none">활동게시판</a></li>
                         <li><a onClick={this.teamsearch} href="#none">팀원소개</a></li>
                         <li><a onClick={this.mapsearch} href="#none">찾아오시는길</a></li>
                         <li><a onClick={this.contactsearch} href="#none" id="contact">Contact</a></li>
@@ -77,11 +77,13 @@ class Appbar extends React.Component {
 
                     <ul className="menubar2">
                         <li><a onClick={this.companysearch} href="#none">회사소개</a></li>
-                        <li><a onClick={this.imgsearch} href="#none">활동게시판</a></li>
+                        <li> <a onClick={this.imgsearch} href="#none">활동게시판</a></li>
                         <li><a onClick={this.teamsearch} href="#none">팀원소개</a></li>
                         <li><a onClick={this.mapsearch} href="#none">찾아오시는길</a></li>
                         <li><a onClick={this.contactsearch} href="#none" id="contact">Contact</a></li>
                     </ul>
+
+                    
 
                     <a href="#" class="navbar__toogleBtn">
                         <img src={varaa} onClick={this.open} width="24px" height="20px"/>
@@ -92,5 +94,7 @@ class Appbar extends React.Component {
         )
     }
 }
+
+
 
 export default Appbar;
